@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/pokemon/1">Pokemon One</router-link> |
-      <router-link to="/pokemon/2">Pokemon Two</router-link> |
-      <router-link to="/pokemon/3">Pokemon Three</router-link>
+      <router-link to="/pokemon/1">Pokemon Feo</router-link> |
+      <router-link to="/pokemon/4">Pokemon Bueno</router-link> |
+      <router-link to="/pokemon/7">Pokemon Guapo</router-link>
     </div>
     <router-view/>
   </div>
@@ -24,6 +24,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-image: url();
 }
 
 #nav {
